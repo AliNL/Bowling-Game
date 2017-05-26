@@ -3,10 +3,7 @@ import java.util.List;
 
 class Round {
     private String status;
-
-
     private List<Ball> balls = new ArrayList<Ball>();
-
 
     Round(String status) {
         this.status = status;
