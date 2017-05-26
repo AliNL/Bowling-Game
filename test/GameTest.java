@@ -18,9 +18,9 @@ public class GameTest {
     public void should_get_150_when_all_spare() throws Exception {
         assertEquals(150, new Game("5/|5/|5/|5/|5/|5/|5/|5/|5/|5/||5").getScore());
     }
+
     @Test
     public void should_get_167_when_wtf() throws Exception {
         assertEquals(167, new Game("X|7/|9-|X|-8|8/|-6|X|X|X||81").getScore());
     }
-
 }

@@ -3,9 +3,6 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created by yzhou on 26/05/2017.
- */
 public class RoundTest {
     @Test
     public void isStrike() throws Exception {
